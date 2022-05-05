@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		875D999928244F520086BB34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875D999828244F520086BB34 /* AppDelegate.swift */; };
-		875D999B28244F520086BB34 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875D999A28244F520086BB34 /* SceneDelegate.swift */; };
 		875D999D28244F520086BB34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875D999C28244F520086BB34 /* ViewController.swift */; };
 		875D99A028244F520086BB34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 875D999E28244F520086BB34 /* Main.storyboard */; };
 		875D99A228244F530086BB34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 875D99A128244F530086BB34 /* Assets.xcassets */; };
@@ -18,7 +17,6 @@
 /* Begin PBXFileReference section */
 		875D999528244F520086BB34 /* Clone_CarrotMarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clone_CarrotMarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		875D999828244F520086BB34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		875D999A28244F520086BB34 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		875D999C28244F520086BB34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		875D999F28244F520086BB34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		875D99A128244F530086BB34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -56,8 +54,8 @@
 		875D999728244F520086BB34 /* Clone_CarrotMarket */ = {
 			isa = PBXGroup;
 			children = (
-				875D999828244F520086BB34 /* AppDelegate.swift */,
-				875D999A28244F520086BB34 /* SceneDelegate.swift */,
+				875D99AC28244FFE0086BB34 /* Resource */,
+				875D99AD282450090086BB34 /* Source */,
 				875D999C28244F520086BB34 /* ViewController.swift */,
 				875D999E28244F520086BB34 /* Main.storyboard */,
 				875D99A128244F530086BB34 /* Assets.xcassets */,
@@ -65,6 +63,69 @@
 				875D99A628244F530086BB34 /* Info.plist */,
 			);
 			path = Clone_CarrotMarket;
+			sourceTree = "<group>";
+		};
+		875D99AC28244FFE0086BB34 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				875D99AF282450320086BB34 /* Const */,
+				875D99AE2824502B0086BB34 /* Config */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		875D99AD282450090086BB34 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				875D99B02824504A0086BB34 /* Support */,
+				875D99B22824505B0086BB34 /* Screen */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		875D99AE2824502B0086BB34 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		875D99AF282450320086BB34 /* Const */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
+		875D99B02824504A0086BB34 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				875D999828244F520086BB34 /* AppDelegate.swift */,
+				875D99B1282450500086BB34 /* Extension */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		875D99B1282450500086BB34 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		875D99B22824505B0086BB34 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				875D99B3282450720086BB34 /* Base */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		875D99B3282450720086BB34 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +201,6 @@
 			files = (
 				875D999D28244F520086BB34 /* ViewController.swift in Sources */,
 				875D999928244F520086BB34 /* AppDelegate.swift in Sources */,
-				875D999B28244F520086BB34 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +352,7 @@
 				INFOPLIST_FILE = Clone_CarrotMarket/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = I;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -304,7 +364,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -320,7 +380,7 @@
 				INFOPLIST_FILE = Clone_CarrotMarket/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = I;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -332,7 +392,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
