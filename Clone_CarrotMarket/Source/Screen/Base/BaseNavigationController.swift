@@ -24,7 +24,7 @@ extension BaseNavigationController {
         let appearnace = UINavigationBarAppearance()
         appearnace.configureWithTransparentBackground()
         appearnace.backgroundColor = Color.daangnWhite
-        appearnace.shadowColor = Color.daangnGray1
+        appearnace.shadowColor = Color.daangnGray3
         
         navigationBar.standardAppearance = appearnace
         navigationBar.scrollEdgeAppearance = appearnace
