@@ -19,7 +19,10 @@ final class TabBarController: UITabBarController {
 }
 
 extension TabBarController{
-    private func makeTabBarItems(){}
+    private func makeTabBarItems(){
+        
+        
+    }
     private func setTabbarAppearance(){}
     private func makeBorder(){}
 }

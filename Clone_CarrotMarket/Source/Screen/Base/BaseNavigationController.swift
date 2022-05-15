@@ -19,6 +19,7 @@ class BaseNavigationController : UINavigationController{
 //MARK: - customize func
 
 extension BaseNavigationController {
+    
     private func setNavigationBarApperance(){
         let appearnace = UINavigationBarAppearance()
         appearnace.configureWithTransparentBackground()
@@ -28,6 +29,7 @@ extension BaseNavigationController {
         navigationBar.standardAppearance = appearnace
         navigationBar.scrollEdgeAppearance = appearnace
         navigationBar.tintColor = UIColor.black
+    
     }
     
 }
