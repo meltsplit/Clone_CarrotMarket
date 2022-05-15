@@ -24,6 +24,8 @@ enum Image{
     static let myCarrot_E_Icon = UIImage(named: "myCarrotIcon")!
     static let myCarrot_F_Icon = UIImage(named: "myCarrotIconFill")!
     
+    static let plusBtnIcon = UIImage(named: "plusButton")!
+    
     //MARK: - HomeProductTableView
     static let heartIcon = UIImage(named: "heart")!
     static let chatIcon = UIImage(named: "chatIcon")!
@@ -33,7 +35,8 @@ enum Image{
 extension Image{
     static let me = UIImage(named: "me")
     
-    static let ptry = UIImage(named: "ptryWoolJacket")!
+    static let ptry_jacket = UIImage(named: "ptryWoolJacket")!
+    static let ptry_shirt = UIImage(named: "ptryComfortShirt_Ecru")!
     static let dgre = UIImage(named: "dgreSOHO")!
     static let airpod = UIImage(named: "airpodMax")!
     static let ddq = UIImage(named: "deepdiqDoson")!

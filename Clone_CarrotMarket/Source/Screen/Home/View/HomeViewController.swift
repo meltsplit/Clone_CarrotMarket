@@ -10,8 +10,14 @@ import SnapKit
 import Then
 
 class HomeViewController: UIViewController {
+    //MARK: - Properties
     
     let productTableView = UITableView()
+    
+    private let plusBtn = UIButton().then {
+        $0.setImage(Image.plusBtnIcon, for: .normal)
+        $0.contentMode = .scaleAspectFit
+    }
 
     //MARK: - Lifecycle
     override func viewDidLoad() {
@@ -34,9 +40,16 @@ extension HomeViewController {
 
     private func setLayout(){
         self.view.addSubview(productTableView)
+        self.view.addSubview(plusBtn)
 
         productTableView.snp.makeConstraints {
             $0.trailing.leading.top.height.equalToSuperview()
+        }
+        
+        plusBtn.snp.makeConstraints {
+            $0.bottom.equalToSuperview().inset(100)
+            $0.trailing.equalToSuperview().inset(19)
+            $0.width.height.equalTo(70)
         }
     }
     
