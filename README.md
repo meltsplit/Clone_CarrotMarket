@@ -6,7 +6,10 @@ https://github.com/SOPT-29th-Joint-Seminar-7/DaangnMarket-iOS </br>
 
 ## 🥕1차 완료 구현 영상
 </br>
-(영상)
+
+https://user-images.githubusercontent.com/57269348/169633105-a5a56575-7c63-4166-acb1-8a99c481c113.mp4
+
+
 </br>
 
 ### 1차 통해 배운 것 </br>
