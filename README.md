@@ -6,7 +6,9 @@ https://github.com/SOPT-29th-Joint-Seminar-7/DaangnMarket-iOS </br>
 
 ## 🥕1차 완료 구현 영상
 </br>
-![Simulator Screen Recording - iPhone 13 - 2022-05-21 at 12 12 21](https://user-images.githubusercontent.com/57269348/169633146-94a0735d-b60e-46bb-bd45-d1ccbccf5ed4.gif)
+
+https://user-images.githubusercontent.com/57269348/171810484-4f730d40-2ac1-4748-9ced-cb78b71d2963.mp4
+
 
 </br>
 
