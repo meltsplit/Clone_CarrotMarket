@@ -28,7 +28,7 @@ https://user-images.githubusercontent.com/57269348/171810484-4f730d40-2ac1-4748-
 **참고**</br>
 [인스타 Clone](https://github.com/30th-THE-SOPT-iOS-Part/KimSoYeon) </br>
 commit순서를 보며 프로젝트 진행 순서</br>
-MVVM 아키텍쳐</br>
+MVC 아키텍쳐</br>
 snapkit 활용법</br> 
 
 
